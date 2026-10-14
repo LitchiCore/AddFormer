@@ -1,0 +1,24 @@
+# Local Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.cache/
+
+# Generated data and training outputs
+data/
+checkpoints/
+runs/
+outputs/
+*.pt
+*.pth
+*.safetensors
+
+# Local secrets and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/

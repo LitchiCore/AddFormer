@@ -1,0 +1,13 @@
+[project]
+name = "addformer"
+version = "0.1.0"
+description = "一个不知是何意味的Transformer加法器"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.11.0",
+    "transformers==5.19.0",
+    "tokenizers==0.23.3",
+    "numpy==2.5.4",
+    "tqdm==4.70.1",
+    "matplotlib==3.11.2",
+]
